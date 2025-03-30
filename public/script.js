@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     async function fetchWeather(city) {
         try {
-            const response = await fetch(`http://localhost:3000/weather?city=${city}`);
+            const response = await fetch(`https://weather-app-j1x9.onrender.com//weather?city=${city}`);
 
             if (!response.ok) {
                 throw new Error("Failed to fetch weather data");
