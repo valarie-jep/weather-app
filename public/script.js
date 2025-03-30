@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <h2>Weather in ${location.name}, ${location.country}</h2>
             <p><strong>Temperature:</strong> ${current.temp_c}°C (${current.temp_f}°F)</p>
             <p><strong>Condition:</strong> ${current.condition.text}</p>
-            <img src="${current.condition.icon}" alt="Weather Icon">
+            <img src="https:${current.condition.icon}" alt="Weather Icon">
             <p><strong>Humidity:</strong> ${current.humidity}%</p>
             <p><strong>Wind Speed:</strong> ${current.wind_kph} kph</p>
         `;
