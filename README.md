@@ -1,5 +1,9 @@
 Weather App
 
+Hosted link
+
+https://weather-app-j1x9.onrender.com
+
 Overview.
 
 The Weather App is a simple web-based application that allows users to fetch real-time weather data for any city. It provides temperature, weather conditions, and additional details like wind speed and humidity. The app is designed to be fully responsive, working seamlessly on mobile, tablet, and desktop devices.
